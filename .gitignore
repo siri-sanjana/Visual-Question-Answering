@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large data files (VQA dataset files)
+*.json
+train2014/
+val2014/
+
+# Model checkpoints and outputs
+blip_vqa_finetuned/
+*.pth
+*.bin
+*.ckpt
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
